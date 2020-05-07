@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+//import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class Webviewcontent extends StatefulWidget {
-  String url;
+  final url;
   Webviewcontent(this.url);
   @override
   _WebviewcontentState createState() => _WebviewcontentState();

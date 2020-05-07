@@ -13,17 +13,17 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         ////////////////
       ),
-      home: myHomePage(),
+      home: MyHomePage(),
     );
   }
 }
 
-class myHomePage extends StatefulWidget {
+class MyHomePage extends StatefulWidget {
   @override
-  _myHomePageState createState() => _myHomePageState();
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _myHomePageState extends State<myHomePage> {
+class _MyHomePageState extends State<MyHomePage> {
 // ==================================================== الروابط ================================================
   List urls = ['http://google.com', 'http://facebook.com'];
   @override
